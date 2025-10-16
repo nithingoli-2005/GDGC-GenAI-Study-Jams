@@ -1,0 +1,55 @@
+Lab Link : https://www.cloudskillsboost.google/focuses/86501?parent=catalog
+Generative AI with Vertex AI: Prompt Design
+☁️ Overview
+
+This lab delves into prompt engineering best practices to enhance the quality of responses from large language models (LLMs) like Gemini. 
+By focusing on crafting clear, specific, and well-defined prompts, you'll learn techniques to guide the model's behavior, reduce output variability,
+and improve response accuracy. The lab emphasizes the importance of structuring prompts effectively to achieve desired outcomes.
+
+🎯 Learning Objectives
+
+By the end of this lab, you will be able to:
+
+Understand the fundamentals of prompt engineering and its impact on LLM responses.
+
+Apply best practices for designing concise and specific prompts.
+
+Utilize system instructions to guide model behavior and reduce irrelevant responses.
+
+Convert generative tasks into classification tasks to enhance response consistency.
+
+Incorporate examples into prompts to improve response quality.
+
+Explore various text generation use cases, including:
+
+Ideation
+
+Question answering
+
+Text classification
+
+Text extraction
+
+Text summarization
+
+🧪 Hands-on Labs
+Lab	Description
+1. Open the Notebook in Vertex AI Workbench	Access the provided Jupyter notebook in Vertex AI Workbench to begin the lab exercises.
+2. Set Up the Notebook	Install necessary packages and import required libraries to prepare the environment.
+3. Prompt Engineering Best Practices	Learn and apply best practices for crafting effective prompts, focusing on conciseness, specificity, and task definition.
+4. Reduce Output Variability	Implement system instructions to guide the model and reduce irrelevant or inconsistent responses.
+5. Improve Response Quality by Including Examples	Enhance response accuracy by incorporating relevant examples into prompts.
+
+🧰 Technologies & Tools Used
+
+Google Gen AI SDK for Python: Interface for interacting with Gemini models.
+
+Vertex AI Workbench: Platform for running Jupyter notebooks and executing Python code.
+
+Gemini Models:
+
+Gemini Pro: Designed for complex reasoning and cross-modal tasks.
+
+Gemini Flash: Optimized for speed and efficiency with enhanced multimodal capabilities.
+
+Python: Programming language used for scripting and interacting with the API.
