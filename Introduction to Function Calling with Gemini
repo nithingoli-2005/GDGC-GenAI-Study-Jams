@@ -1,0 +1,44 @@
+Lab Link : https://www.cloudskillsboost.google/focuses/85642?parent=catalog
+☁️ Overview
+
+Function calling allows developers to define descriptions of functions in their code and pass them to a language model within a request. 
+The model’s response will include the name of a function and the arguments to call it with, in a structured format (JSON). In this lab, you’ll learn 
+how to use Gemini via Vertex AI to generate function calls from natural language prompts, then use or interpret those calls to perform structured tasks like 
+querying product data, geocoding, or entity extraction.
+
+🎯 Learning Objectives
+
+By the end of this lab, you will be able to:
+
+Install and use the Google Gen AI SDK for Python to work with Gemini API. 
+
+Generate structured function calls from natural language prompts using the Gemini 2.0 Flash model. 
+
+Use function calling for real-world tasks like:
+  • Responding to Google Store queries by defining function signatures and prompting the model to call them 
+
+  • Geocoding addresses by generating function calls that include parameters for external API calls (e.g. latitude/longitude) 
+
+  • Extracting entities from unstructured text (e.g. logs) using function calling 
+
+Understand how to interpret model outputs (function name + arguments) and integrate them into your application workflow.
+
+🧪 Hands-on Labs
+Lab	Description
+1. Setup & Initialize Environment	Prepare your Google Cloud project, configure APIs, and initialize the working environment.
+2. Build & Test Core Functionality	Develop the main logic or application feature(s) and test locally or in Cloud Shell.
+3. Add Advanced Features / Integration	Integrate additional services or features (e.g. external APIs, auth, UI components).
+4. Containerize & Deploy	Package your application (e.g. with Docker), push to a registry, and deploy to a managed compute service.
+5. Validation & Cleanup	Test the deployed app’s functionality end-to-end, verify requirements, and clean up resources.
+
+🧰 Technologies & Tools Used
+
+Google Cloud / Vertex AI (to host and call Gemini models) 
+
+Gemini API / Gen AI SDK for Python (to interact programmatically with Gemini) 
+
+Jupyter notebook / Vertex AI Workbench environment (for running the lab steps) 
+
+Python (for scripting, defining function signatures, processing JSON, etc.) 
+
+External APIs (e.g. geocoding service) for functional examples (e.g. converting address → lat/lon)
