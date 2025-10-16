@@ -1,4 +1,4 @@
-#Gen AI Study Jam – Essentials
+# Gen AI Study Jam – Essentials
 
 1)High-Performance Systems / GPU Machines
 
