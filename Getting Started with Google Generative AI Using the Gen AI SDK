@@ -1,0 +1,52 @@
+Lab link : https://www.cloudskillsboost.google/focuses/86503?parent=catalog
+☁️ Overview
+
+This lab introduces the Google Gen AI SDK for Python as a unified interface to work with Google’s generative AI services and models (including Gemini). 
+You’ll learn how to set up the SDK, send different kinds of prompts (text, multimodal), control the model’s behavior, and experiment with advanced features 
+like function calling, token counting, context caching, and embeddings.
+
+By the end of this lab, you will be able to:
+
+Install and initialize the Gen AI SDK in a Python environment. 
+
+Connect and authenticate to Google’s generative AI services and models. 
+
+Send text and multimodal prompts (e.g. with images, audio) to a model and fetch responses. 
+
+Configure model parameters (temperature, max tokens, safety filters) and system instructions to guide generation. 
+
+Manage model interactions:
+  • Multi-turn conversations / streaming responses 
+
+  • Send asynchronous requests 
+
+Use function calling features: define structured function signatures and have the model output function calls. 
+
+Use context caching to reuse parts of the conversation or prompt efficiently. 
+
+Run batch predictions: send many inputs at once and process outputs asynchronously. 
+
+Generate text embeddings for given content
+
+🧪 Hands-on Labs
+Lab	Description
+1. Set Up the Environment	Initialize your working environment in Vertex AI Workbench or Cloud Shell. Install the Gen AI SDK for Python and configure authentication to access Gemini models.
+2. Send Text Prompts	Use the SDK to send simple text-based prompts to the Gemini model and display the generated responses. Adjust parameters like temperature and max output tokens.
+3. Work with Multimodal Prompts	Send inputs that include text + image or text + audio, demonstrating Gemini’s multimodal understanding and generation capabilities.
+4. Configure System Instructions	Modify model behavior by adding system-level instructions that guide the response style, tone, or format.
+5. Implement Function Calling	Define function schemas in Python and have the model generate structured JSON function calls. Use the results to trigger functions programmatically.
+6. Use Context Caching	Experiment with context caching to store parts of the conversation or shared context and reuse them efficiently across prompts.
+7. Run Batch Predictions	Send multiple prompts simultaneously using batch processing for large-scale inference or offline data generation.
+8. Generate Text Embeddings	Use the SDK’s embedding feature to convert text into vector representations for similarity search, clustering, or semantic understanding tasks.
+
+🧰 Technologies & Tools Used
+
+Google Gen AI SDK for Python – the main library you interact with. 
+
+Vertex AI / Google Cloud generative AI services / models (such as Gemini) 
+
+Jupyter Notebook / Vertex AI Workbench environment (runs Python code interactively) 
+
+Python (for scripting, defining function signatures, manipulating JSON) 
+
+APIs & SDK features: function calling, context caching, batch prediction, embedding tools
