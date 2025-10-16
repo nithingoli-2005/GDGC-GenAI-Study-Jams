@@ -1,0 +1,47 @@
+Lab link : https://www.cloudskillsboost.google/focuses/87315?parent=catalog
+☁️ Google Cloud Skills Boost — Develop GenAI Apps with Gemini and Streamlit: Challenge Lab
+🧭 Overview
+
+This is a challenge lab (rather than a guided lab) in which you’re given a scenario and a set of tasks to complete on your own. 
+You are expected to apply your existing skills with Google Cloud, generative AI, and Streamlit to build, test, and deploy a GenAI-based application using the Gemini model. 
+An automated scoring system will validate your task completion.
+
+🎯 Learning Objectives
+
+By completing this challenge lab, you will demonstrate your ability to:
+
+Use cURL to test prompts with the Gemini API endpoint. 
+
+Write a Streamlit front-end application (in Python) to collect user inputs and call Gemini with dynamic prompts. 
+
+Test the Streamlit application in the Cloud Shell environment. 
+
+Build a Docker image, push it to Artifact Registry, and configure the Dockerfile to use your application code. 
+
+Deploy the application to Cloud Run, and test that the deployed web app works as intended.
+
+🧪 Hands-on Labs
+Lab	Description
+1. Use cURL with Gemini API	Test the Gemini API endpoint using cURL to send prompts and verify AI-generated responses.
+2. Develop Streamlit Application	Build a Streamlit-based GenAI web app (chef.py) that takes user inputs like cuisine, diet, ingredients, and wine preference to generate meal recommendations using Gemini.
+3. Test Application in Cloud Shell	Run and verify the Streamlit app inside Google Cloud Shell using a Python virtual environment and dependencies.
+4. Dockerize & Push to Artifact Registry	Containerize the Streamlit app with Docker, build the image, and push it to Google Artifact Registry for deployment.
+5. Deploy to Cloud Run	Deploy the containerized application to Cloud Run, configure environment variables, and test the live GenAI web app through its service URL.
+
+🧰 Technologies and Tools Used
+
+Google Cloud Platform (GCP)
+
+Vertex AI / Gemini API
+
+Streamlit (Python framework)
+
+Docker
+
+Artifact Registry
+
+Cloud Run
+
+Cloud Shell / gcloud CLI
+
+cURL
